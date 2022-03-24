@@ -12,8 +12,13 @@ import Items from './Components/Paginas/Items';
     <>
     <Router>
       <NavBar/>
+      <switch>
+        <route path='/' exact component={Inicio}/>
+        <route path='/Coach' exact component={Coach}/>
+        <route path='/Items' exact component={Items}/>
+      </switch>
     </Router>
-  </>
+    </>
     </div>
     )
   };

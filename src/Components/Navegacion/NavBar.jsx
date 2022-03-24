@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const NavBar = () => {
   return (
   <>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
    
         <img  src="./INNOVAC.jpg" width='200' ></img>
     
